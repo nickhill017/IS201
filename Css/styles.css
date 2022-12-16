@@ -1,0 +1,172 @@
+body{
+    background-color: beige;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+table, th, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.emp{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    
+    
+}
+
+.verbtable{
+    size: large;
+    border: none;
+}
+
+.common{
+    /* border: 3px solid black; */
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 105px;
+    color: white;
+    font-size: larger;
+    background: solid;
+    text-align: center;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png');
+    background-size: 180px 108px;
+}
+
+.main{
+    top: 116px;
+    left: 5px;
+    right: 5px;
+    height: 2000px;
+    
+}
+.footer{
+
+}
+
+.title{
+    font-size: x-large;
+}
+
+.vids{
+    /* margin: 10px; */
+    position: relative;
+    height: 415px;
+    width: 97.5%;
+    left: 25px;
+    background-image: url('../Images/Red_Background.jpg');
+    background-size: cover;
+}
+
+.left{
+    top: 7px;
+    left: 25px;
+    width: 315px;
+    bottom: 5px;
+    padding-right: 100px;
+    
+}
+
+.middle{
+    top: 7px;
+    left: 435px;
+    width: 315px;
+    bottom: 5px;
+    padding-right: 100px;
+    padding-left: 200px;
+    
+}
+
+.right{
+    top: 7px;
+    width: 315px;
+    right: 100px;
+    bottom: 5px;
+    padding-right: 200px;
+    padding-left: 100px;
+    
+}
+
+.words{
+    /* margin: 10px; */
+    position: relative;
+    height: 1500px;
+    width: 97.5%;
+    left: 25px;
+    background-image: url('../Images/Yellow_Background.jpg');
+    /* background-size: ; */
+    color: black;
+}
+
+.words1{
+    /* margin: 10px; */
+    position: relative;
+    height: 750px;
+    width: 97.5%;
+    left: 25px;
+    background-image: url('../Images/Red_Background.jpg');
+    /* background-size: ; */
+    color: white;
+    text-align: center;
+}
+
+.words2{
+    /* margin: 10px; */
+    position: relative;
+    height: 1000x;
+    width: 97.5%;
+    left: 25px;
+    background-image: url('../Images/Dark_background.jpg');
+    /* background-size: ; */
+    color: white;
+    background-size: cover;
+}
